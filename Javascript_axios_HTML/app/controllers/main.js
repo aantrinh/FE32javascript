@@ -1,5 +1,9 @@
 var nguoiDUngService = new NguoiDungService();
 
+function themTestGit(){
+    console.log("Them nguoi dung aanht2");
+}
+
 getListUser();
 getEle("btnThemNguoiDung").addEventListener("click", function(){
     var title = "Them Nguoi Dung";
